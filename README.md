@@ -1,6 +1,9 @@
-# Seller Agent
+# Aegis Automation
 
-Amazon seller operations assistant with five modules and an AI assistant (Claude tool use).
+Modular AI agents for Amazon seller operations.  
+**AI proposes. You decide.**
+
+Five modules with Claude tool use. Write actions are never executed by the model — they queue for human approval.
 
 | Module | Read tools | Write tools (propose only) |
 |---|---|---|
@@ -23,3 +26,6 @@ pytest
 export ANTHROPIC_API_KEY=...   # never commit
 python -m seller_agent         # /pending, /approve A0001, /reject A0001
 ```
+
+## About
+Aegis Automation is a control-first system for Amazon sellers. AI analyzes and proposes. You approve.

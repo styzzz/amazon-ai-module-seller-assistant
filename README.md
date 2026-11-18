@@ -1,5 +1,7 @@
 # Aegis Automation
 
+![Aegis Automation](assets/aegis-automation-logo.jpg)
+
 Modular AI agents for Amazon seller operations.  
 **AI proposes. You decide.**
 
